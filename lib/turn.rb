@@ -64,29 +64,7 @@ def turn(board)
 end
 
     
-    
-    
-#   until(valid_move?(board,var) == true) do
-#     break
-#     return turn(board)
-#   end
-# end
-
-# if (tickFormat.length > 12 && tickFormat.length < 24)
-#   i = 1
-#   while(i < tickFormat.length) do
-#     if (i%2 != 0)
-#       tickFormat.at(i)[1] = ''
-#     end
-#     i += 1
-#   end
-# end
-
-
-
-
-
-#get input
+    #get input
 #convert input to index
 #if index is valid
   #make the move for input
