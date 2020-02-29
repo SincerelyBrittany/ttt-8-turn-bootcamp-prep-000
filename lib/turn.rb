@@ -59,6 +59,7 @@ def turn(board)
   else 
     puts "this spot is invalid"
     display_board(board)
+    turn(board)
 
   end 
 end
