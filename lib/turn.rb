@@ -55,11 +55,39 @@ def turn(board)
   var = input_to_index(user_input) #converts input to index
   if valid_move?(board,var) == true #if indec is valid/make move
     move(board, var , c3 = "X")
-  until(valid_move?(board,var) == true) do
-     turn(board)
+    display_board(board)
+  else 
+    # m = 0
+    loop do
+    puts "this spot is invalid"
+    display_board(board)
+    # m += 1
+    # break if m == 5
     end
-  end
+  end 
 end
+
+# def turn(board)
+#   puts "Please enter 1-9:"
+#   user_input = gets.strip
+#   position = input_to_position(user_input)
+#   if valid_move?(board, position)
+#     move(board, position, current_player(board))
+#     display_board(board)
+#   else
+#     turn(board)
+#   end
+# end
+    
+
+    
+    
+    
+#   until(valid_move?(board,var) == true) do
+#     break
+#     return turn(board)
+#   end
+# end
 
 # if (tickFormat.length > 12 && tickFormat.length < 24)
 #   i = 1
