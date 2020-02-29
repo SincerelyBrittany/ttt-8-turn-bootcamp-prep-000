@@ -57,13 +57,9 @@ def turn(board)
     move(board, var , c3 = "X")
     display_board(board)
   else 
-    # m = 0
-    loop do
     puts "this spot is invalid"
     display_board(board)
-    # m += 1
-    # break if m == 5
-    end
+
   end 
 end
 
